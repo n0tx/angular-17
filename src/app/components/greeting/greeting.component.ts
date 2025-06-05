@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, input, signal } from '@angular/core';
 
 @Component({
   selector: 'app-greeting',
@@ -9,4 +9,5 @@ import { Component, signal } from '@angular/core';
 })
 export class GreetingComponent {
   greetingMessage = signal('greeting works!');
+  inputFromGreeting = input('Hello this string from greeting.ts');
 }
