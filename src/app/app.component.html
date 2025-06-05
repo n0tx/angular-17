@@ -1,13 +1,1 @@
-<h1>Hello, {{ title }}</h1>
-<p>Congratulations! Your app is running. 🎉</p>
-@for (item of [ { title: 'Explore the Docs', link: 'https://angular.dev' }, {
-title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' }, { title:
-'CLI Docs', link: 'https://angular.dev/tools/cli' }, { title: 'Angular Language
-Service', link: 'https://angular.dev/tools/language-service' }, { title:
-'Angular DevTools', link: 'https://angular.dev/tools/devtools' }, ]; track
-item.title) {
-<span>{{ item.title }}</span
-><br />
-}
-
-<router-outlet />
+<h1>{{ title }}</h1>
