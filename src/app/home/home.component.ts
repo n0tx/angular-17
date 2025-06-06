@@ -11,4 +11,8 @@ import { GreetingComponent } from '../components/greeting/greeting.component';
 export class HomeComponent {
   homeMessage = signal('home works!');
   dataFromHome = signal('Hello this string from home.ts');
+
+  keyUpHandler(event: KeyboardEvent) {
+    console.log(`user sedang mengetik key: ${event.key}`);
+  }
 }

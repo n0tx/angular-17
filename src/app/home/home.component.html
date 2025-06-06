@@ -3,3 +3,4 @@
   [inputFromGreeting]="'Hello this harcoded string from home.html'"
 ></app-greeting>
 <app-greeting [inputFromGreeting]="dataFromHome()"></app-greeting>
+<input type="text" (keyup)="keyUpHandler($event)" />
