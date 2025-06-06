@@ -1,1 +1,8 @@
-<p>counter works!</p>
+<div>
+  <p>{{ counterMessage() }}</p>
+  <p>Counter Value: {{ counterValue() }}</p>
+</div>
+
+<button (click)="increment()">Increment</button>
+<button (click)="reset()">Reset</button>
+<button (click)="decrement()">Decrement</button>
