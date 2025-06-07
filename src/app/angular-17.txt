@@ -1,0 +1,5 @@
+# angular-17
+
+komponen todos ke komponen home
+- menampilkan variable signal pada komponen todos dari todos.ts ke todos.html
+- menambahkan dan menampilkan komponen todos pada komponen home
