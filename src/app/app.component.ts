@@ -10,5 +10,7 @@ import { HomeComponent } from './home/home.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  titleApp = signal("Hello I'm from AppComponent, <app-root>");
+  titleApp = signal(
+    "Hello I'm from app component signal variable and app-root selector"
+  );
 }
