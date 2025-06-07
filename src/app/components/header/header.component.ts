@@ -8,5 +8,5 @@ import { Component, signal } from '@angular/core';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  headerMessage = signal('header works!');
+  headerMessage = signal('My First Angular App');
 }
