@@ -1,8 +1,17 @@
 header {
-  display: flex;
   padding-inline: 16px;
   padding-block: 8px;
   background-color: #68f34f;
   color: white;
-  align-items: center;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      list-style: none;
+    }
+  }
 }

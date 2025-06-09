@@ -1,1 +1,10 @@
-<header>{{ headerMessage() }}</header>
+<header>
+  <nav>
+    <span routerLink="/">{{ headerMessage() }}</span>
+    <ul>
+      <li routerLink="/todos">
+        {{ todosLink() }}
+      </li>
+    </ul>
+  </nav>
+</header>
